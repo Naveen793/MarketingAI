@@ -1,0 +1,9 @@
+﻿src/app/api/agents/outreach-email/route.ts(36,13): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'ObjectId' is not assignable to type 'StringQueryTypeCasting | undefined'.
+src/app/api/agents/outreach-email/route.ts(43,86): error TS2339: Property '_id' does not exist on type 'never'.
+src/app/api/emails/inbound/route.ts(32,13): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'ObjectId' is not assignable to type 'StringQueryTypeCasting | undefined'.
+src/lib/mongodb.ts(9,21): error TS7017: Element implicitly has an 'any' type because type 'typeof globalThis' has no index signature.
+src/lib/mongodb.ts(12,19): error TS7017: Element implicitly has an 'any' type because type 'typeof globalThis' has no index signature.
